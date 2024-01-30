@@ -17,12 +17,12 @@ btnStart.addEventListener("click",()=>{
     }
     if(sec==60)
     {
-        min++;
+        mins++;
         sec=0;
     }
     if(mins==60){
         hrs++;
-        min=0;
+        mins=0;
     }
     updatetime();
     },10)
