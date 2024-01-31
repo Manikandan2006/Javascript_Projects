@@ -38,7 +38,7 @@ btnReset.addEventListener("click",()=>{
     btnStart.classList.remove("start-active");
     btnStop.classList.remove("stop-active");
     clearInterval(starttimer);
-    hrs=min=sec=ms=0;
+    hrs=mins=sec=ms=0;
     updatetime();
 });
 
